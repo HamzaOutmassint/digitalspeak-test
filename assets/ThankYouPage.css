@@ -25,9 +25,180 @@ li {
 }
 
 .header {
-    height: 100lvh;
-    background-image: url("./images/header-img.png");
+    font-family: "Montserrat", sans-serif;
+    height: 147lvh;
+    background-image: url("./images/thank-you-page/Group\ 1.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 11rem;
+    text-align: center;
+}
+
+.header h2{
+    font-size: 4rem;
+    color: #fff;
+}
+
+.header h3{
+    font-size: 19px;
+    margin-bottom: 3rem;
+}
+
+.header h1{
+    font-size: 3rem;
+}
+
+.header p{
+    font-size: 21px;
+    color: #fff;
+}
+
+
+
+.prochaine-étape{
+    font-family: "Montserrat", sans-serif !important;
+    background-color: #F3F3F3;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 10rem 0 0 0;
+}
+
+.prochaine-étape img{
+    position: absolute;
+    top: -29rem;
+}
+
+.prochaine-étape button {
+    text-transform: lowercase;
+    display: flex;
+    flex-direction: column;
+    background-color: #D2B938;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 22px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.prochaine-étape button:hover{ background-color: #c3a925 }
+.prochaine-étape button:active{ background-color: #D2B938 }
+
+.prochaine-étape button .register-btn{
+    text-transform: uppercase !important;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.prochaine-étape button .desc-btn{
+    font-size: 17px;
+}
+
+.prochaine-étape div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prochaine-étape h1{
+    text-transform: uppercase;
+    margin-top: 7rem;
+    font-size: 4rem;
+    color: #D2B938;
+}
+
+
+.etapes-sec{
+    font-family: "Montserrat", sans-serif !important;
+    background-color: #fff;
+    padding: 1rem 5rem;
+}
+
+.etapes-sec .header-etap{
+    font-size: 43px;
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.etapes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.etapes .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.etapes .item h1{
+font-size: 3.5rem;
+}
+
+.etapes .item span{
+font-weight: 400;
+}
+
+.etapes .item .etap2-span{
+    font-size: 27px;
+    font-weight: 500 !important;
+}
+
+.etapes .item h1{
+color: #D2B938;
+}
+
+.etapes .item span{
+    padding: 0 6rem;
+    margin-top: 1rem;
+}
+
+/* 
+    ### footer section styling ###
+*/
+
+footer{ background-color: #D2B938; }
+
+footer div {
+    padding: 0 19rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer .footer-top{
+     flex-direction: column;
+}
+
+footer .footer-bottom{
+    margin-top: 2rem;
+}
+
+footer .footer-bottom a{
+    font-weight: 600;
+    color: #000;
+    padding: 0 .4rem;
+}
+
+footer .footer-sub{
+    font-family: "Montserrat", sans-serif;
+    padding: 0 19rem;
+    display: flex;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 2rem;
 }

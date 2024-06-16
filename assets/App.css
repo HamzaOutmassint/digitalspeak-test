@@ -36,7 +36,7 @@ li {
 
 .header {
     height: 100lvh;
-    background-image: url("./images/header-img.png");
+    background-image: url("./images/main-app/header-img.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -137,6 +137,7 @@ li {
     position: relative;
     display: flex;
     justify-content: center;
+    max-width: 567px !important;
  }
 
  .header-right .circle-img{
@@ -350,7 +351,7 @@ li {
     position: absolute;
     bottom: 6.5%;
     right: -13%;
-    width: 520px;
+    width: 560px;
     height: 176px;
     background-color: #D2B938;
     z-index: 1;
@@ -656,11 +657,29 @@ footer .footer-sub{
     .top-banner {
         font-size: 28.8px;
     }
+    .presentation .right .name-highlight{
+        width: 740px;
+    }
+    .presentation .right .right-highlight{
+        width: 630px;
+    }
+    .presentation .left .highlight {
+        width: 230px;
+    }
 }
 
 @media only screen and (min-width: 1600px) and (max-width: 1919px) {
     .top-banner {
         font-size: 25.1px;
+    }
+    .presentation .right .name-highlight{
+        width: 660px;
+    }
+    .presentation .right .right-highlight{
+        width: 530px;
+    }
+    .presentation .left .highlight {
+        width: 218px;
     }
 }
 
@@ -668,11 +687,20 @@ footer .footer-sub{
     .top-banner {
         font-size: 21.4px;
     }
+    .presentation .right .name-highlight{
+        width: 590px;
+    }
+    .presentation .left .highlight {
+        width: 203px;
+    }
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
     .top-banner {
         font-size: 20.3px;
+    }
+    .presentation .right .name-highlight{
+        width: 560px;
     }
 }
 @media (min-width: 1281px){.header-left { gap: 25px;}}
@@ -684,6 +712,9 @@ footer .footer-sub{
     .header-left {
         gap: 25px;
     }
+    .presentation .right .name-highlight{
+        width: 530px;
+    }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1279px) {
@@ -692,6 +723,9 @@ footer .footer-sub{
     }
     .header-left {
         gap: 10px;
+    }
+    .presentation .right .name-highlight{
+        width: 520px;
     }
 }
 
@@ -710,5 +744,8 @@ footer .footer-sub{
     }
     .header-left p{
         font-size: 12px;
+    }
+    .presentation .right .name-highlight{
+        width: 444px;
     }
 }

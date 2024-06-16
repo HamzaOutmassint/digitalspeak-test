@@ -368,7 +368,10 @@ li {
 .secret .container{
     background-color: #1E1E1E;
     padding: 4rem 0;
+    padding-bottom: 9rem;
     font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .secret .container .secret-header{
@@ -388,7 +391,7 @@ li {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 4rem;
+    margin: 4rem 0;
 }
 
 .secret .container .secret-group > div{
@@ -436,10 +439,163 @@ li {
     margin-top: 1.4rem;
 }
 
+.secret .container button{
+    font-family: "Montserrat", sans-serif;
+    text-transform: lowercase;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    background-color: #D2B938;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.secret .container button:hover{ background-color: #c3a925 }
+.secret .container button:active{ background-color: #D2B938 }
+
+.secret .container button .register-btn{
+    text-transform: uppercase !important;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.secret .container button .desc-btn{
+    font-size: 17px;
+}
+
+/* 
+    ### mockup global section styling ###
+*/
+
+.mockup-global-sec{
+    background-color: #F3F3F3;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+}
 
 
+.mockup-global-sec .reb{
+    font-family: "Poppins", sans-serif;
+   position: absolute;
+   top: -97px;
+   right: 0;
+   -webkit-text-fill-color: #F3F3F3;
+   -webkit-text-stroke: 1px #000;
+   opacity: .1;
+   font-size: 20rem;
+   font-weight: 700;
+}
 
+.mockup-global-sec .orn{
+    font-family: "Poppins", sans-serif;
+   position: absolute;
+   top: -97px;
+   left: 0;
+   -webkit-text-fill-color: #F3F3F3;
+   -webkit-text-stroke: 1px #000;
+   opacity: .1;
+   font-size: 20rem;
+   font-weight: 700;
+}
 
+.mockup-global-sec .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 17rem 19rem 2rem 19rem;
+    text-align: center;
+}
+
+.mockup-global-sec .container img{
+    position: absolute;
+    top: -120px;
+}
+
+.mockup-global-sec .container h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #D2B938;
+}
+
+.mockup-global-sec .container p{
+    font-size: 22px;
+    margin-top: .6rem;
+    margin-bottom: 1rem;
+}
+
+.mockup-global-sec .container button{
+    font-family: "Montserrat", sans-serif;
+    text-transform: lowercase;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    background-color: #D2B938;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mockup-global-sec .container button:hover{ background-color: #c3a925 }
+.mockup-global-sec .container button:active{ background-color: #D2B938 }
+
+.mockup-global-sec .container button .register-btn{
+    text-transform: uppercase !important;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.mockup-global-sec .container button .desc-btn{
+    font-size: 17px;
+}
+
+/* 
+    ### temignages section styling ###
+*/
+
+.temignages{
+    font-family: "Montserrat", sans-serif;
+    background-color: #1E1E1E;
+    color: #fff;
+    padding: 2rem 73px;
+}
+
+.temignages > div > h1{
+    font-size: 2rem;
+}
+.temignages > div > .sub{
+    color: #D2B938;
+    margin-left: 4rem;
+}
+
+footer{ background-color: #D2B938; }
+
+footer div{
+     padding: 0 19rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+}
+
+footer .footer-bottom{
+    display: flex;
+    flex-direction: column; 
+}
+footer .footer-bottom > div{
+    display: flex;
+}
 
 @media only screen and (min-width: 1920px) {
     .top-banner {

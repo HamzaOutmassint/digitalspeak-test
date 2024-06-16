@@ -27,6 +27,12 @@ secretBox3.addEventListener('mouseout',()=>{
     secret3.style.color = '#fff';
 })
 
+const buttons = document.querySelectorAll("button");
+buttons.forEach(button => {
+    button.addEventListener("click", function() {
+      window.location.href = "ThankYouPage.html"; 
+    });
+  });
 
 $(document).ready(function(){
     $('.slider').slick({

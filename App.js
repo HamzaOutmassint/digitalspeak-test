@@ -26,3 +26,20 @@ secretBox2.addEventListener('mouseout',()=>{
 secretBox3.addEventListener('mouseout',()=>{
     secret3.style.color = '#fff';
 })
+
+
+$(document).ready(function(){
+    $('.slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        speed: 500,
+        autoplaySpeed: 5000,
+        infinite: true,
+        autoplay: true,
+        centerMode: true,
+        centerPadding: "0",
+        dots: true,
+      });
+});
+

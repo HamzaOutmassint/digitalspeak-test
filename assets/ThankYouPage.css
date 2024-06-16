@@ -38,37 +38,35 @@ li {
     text-align: center;
 }
 
-.header h2{
+.header h2 {
     font-size: 4rem;
     color: #fff;
 }
 
-.header h3{
+.header h3 {
     font-size: 19px;
     margin-bottom: 3rem;
 }
 
-.header h1{
+.header h1 {
     font-size: 3rem;
 }
 
-.header p{
+.header p {
     font-size: 21px;
     color: #fff;
 }
 
-
-
-.prochaine-étape{
+.prochaine-étape {
     font-family: "Montserrat", sans-serif !important;
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
     position: relative;
     display: flex;
     justify-content: center;
     padding: 10rem 0 0 0;
 }
 
-.prochaine-étape img{
+.prochaine-étape img {
     position: absolute;
     top: -29rem;
 }
@@ -77,7 +75,7 @@ li {
     text-transform: lowercase;
     display: flex;
     flex-direction: column;
-    background-color: #D2B938;
+    background-color: #d2b938;
     color: #fff;
     border: none;
     outline: none;
@@ -88,54 +86,58 @@ li {
     cursor: pointer;
 }
 
-.prochaine-étape button:hover{ background-color: #c3a925 }
-.prochaine-étape button:active{ background-color: #D2B938 }
+.prochaine-étape button:hover {
+    background-color: #c3a925;
+}
 
-.prochaine-étape button .register-btn{
+.prochaine-étape button:active {
+    background-color: #d2b938;
+}
+
+.prochaine-étape button .register-btn {
     text-transform: uppercase !important;
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 2px;
 }
 
-.prochaine-étape button .desc-btn{
+.prochaine-étape button .desc-btn {
     font-size: 17px;
 }
 
-.prochaine-étape div{
+.prochaine-étape div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.prochaine-étape h1{
+.prochaine-étape h1 {
     text-transform: uppercase;
     margin-top: 7rem;
     font-size: 4rem;
-    color: #D2B938;
+    color: #d2b938;
 }
 
-
-.etapes-sec{
+.etapes-sec {
     font-family: "Montserrat", sans-serif !important;
     background-color: #fff;
     padding: 1rem 5rem;
 }
 
-.etapes-sec .header-etap{
+.etapes-sec .header-etap {
     font-size: 43px;
     text-align: center;
     margin-bottom: 3.5rem;
 }
 
-.etapes{
+.etapes {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.etapes .item{
+.etapes .item {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,24 +145,24 @@ li {
     text-align: center;
 }
 
-.etapes .item h1{
-font-size: 3.5rem;
+.etapes .item h1 {
+    font-size: 3.5rem;
 }
 
-.etapes .item span{
-font-weight: 400;
+.etapes .item span {
+    font-weight: 400;
 }
 
-.etapes .item .etap2-span{
+.etapes .item .etap2-span {
     font-size: 27px;
     font-weight: 500 !important;
 }
 
-.etapes .item h1{
-color: #D2B938;
+.etapes .item h1 {
+    color: #d2b938;
 }
 
-.etapes .item span{
+.etapes .item span {
     padding: 0 6rem;
     margin-top: 1rem;
 }
@@ -169,7 +171,9 @@ color: #D2B938;
     ### footer section styling ###
 */
 
-footer{ background-color: #D2B938; }
+footer {
+    background-color: #d2b938;
+}
 
 footer div {
     padding: 0 19rem;
@@ -180,21 +184,21 @@ footer div {
     font-family: "Montserrat", sans-serif;
 }
 
-footer .footer-top{
-     flex-direction: column;
+footer .footer-top {
+    flex-direction: column;
 }
 
-footer .footer-bottom{
+footer .footer-bottom {
     margin-top: 2rem;
 }
 
-footer .footer-bottom a{
+footer .footer-bottom a {
     font-weight: 600;
     color: #000;
-    padding: 0 .4rem;
+    padding: 0 0.4rem;
 }
 
-footer .footer-sub{
+footer .footer-sub {
     font-family: "Montserrat", sans-serif;
     padding: 0 19rem;
     display: flex;

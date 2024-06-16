@@ -49,7 +49,7 @@ li {
     width: 98%;
     position: absolute;
     top: 0;
-    left : 0;
+    left: 0;
     right: 0;
     margin: 0 auto;
     background-color: #d2b938;
@@ -82,12 +82,15 @@ li {
     color: #D2B938;
 }
 
-.header-left h1{
+.header-left h1 {
     text-transform: uppercase;
     font-size: 38px;
     color: #fff;
 }
-.header-left h1 span{ color: #D2B938 !important; }
+
+.header-left h1 span {
+    color: #D2B938 !important;
+}
 
 .header-left .details {
     text-transform: uppercase;
@@ -95,12 +98,15 @@ li {
     font-size: 20px;
 }
 
-.header-left p{
+.header-left p {
     font-size: 16px;
     color: #fff;
     font-weight: 600;
 }
-.header-left p span{ color: #D2B938 !important;  }
+
+.header-left p span {
+    color: #D2B938 !important;
+}
 
 .header-left button {
     font-family: "Montserrat", sans-serif;
@@ -119,28 +125,33 @@ li {
     cursor: pointer;
 }
 
-.header-left button:hover{ background-color: #c3a925 }
-.header-left button:active{ background-color: #D2B938 }
+.header-left button:hover {
+    background-color: #c3a925
+}
 
-.header-left button .register-btn{
+.header-left button:active {
+    background-color: #D2B938
+}
+
+.header-left button .register-btn {
     text-transform: uppercase !important;
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 2px;
 }
 
-.header-left button .desc-btn{
+.header-left button .desc-btn {
     font-size: 17px;
 }
 
-.header-right{ 
+.header-right {
     position: relative;
     display: flex;
     justify-content: center;
     max-width: 567px !important;
- }
+}
 
- .header-right .circle-img{
+.header-right .circle-img {
     content: "";
     position: absolute;
     top: 0%;
@@ -151,7 +162,7 @@ li {
     border-radius: 50%;
 }
 
-.header-right span{
+.header-right span {
     position: absolute;
     top: 19%;
     right: 15%;
@@ -169,19 +180,19 @@ li {
     ### partenaires section styling ###
 */
 
-.partenaires{
+.partenaires {
     background-color: #F3F3F3;
     font-family: "Montserrat", sans-serif;
     padding: 2rem 2rem 4rem 2rem;
 }
 
-.partenaires p { 
+.partenaires p {
     text-align: center;
     font-size: 25px;
     font-weight: 300;
 }
 
-.partenaires ul { 
+.partenaires ul {
     display: flex;
     justify-content: space-around;
     margin-top: 3rem;
@@ -191,41 +202,42 @@ li {
     ### section three styling ###
 */
 
-.sec3{  
+.sec3 {
     font-family: "Montserrat", sans-serif;
     padding: 2rem 73px;
     position: relative;
- }
+}
 
-.sec3 .shape3{  
+.sec3 .shape3 {
     position: absolute;
 }
-.sec3 .shape4{  
+
+.sec3 .shape4 {
     position: absolute;
     top: -20px;
     right: 20px;
     transform: rotate(180deg);
 }
 
-.sec3 .sec3-header{
+.sec3 .sec3-header {
     text-align: center;
     padding: 0 25rem;
 }
 
-.sec3 .sec3-header h1{
- font-size: 25px;
- text-transform: uppercase;
- margin-bottom: 1rem;
+.sec3 .sec3-header h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
 }
 
-.sec3 .program{
+.sec3 .program {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 4rem;
 }
 
-.sec3 .program .step{
+.sec3 .program .step {
     position: relative;
     width: 200px;
     height: 210px;
@@ -238,14 +250,19 @@ li {
     transition: all ease .3s;
 }
 
-.sec3 .program .step:hover{
+.sec3 .program .step:hover {
     background: #1E1E1E;
 }
 
-.sec3 .program .step:hover strong{ color: #D2B938;}
-.sec3 .program .step:hover p{ color: #fff;}
+.sec3 .program .step:hover strong {
+    color: #D2B938;
+}
 
-.sec3 .program .step span{
+.sec3 .program .step:hover p {
+    color: #fff;
+}
+
+.sec3 .program .step span {
     background-color: #D2B938;
     position: absolute;
     top: -25px;
@@ -258,19 +275,22 @@ li {
     align-items: center;
 }
 
-.sec3 .program .step strong{
+.sec3 .program .step strong {
     text-transform: uppercase;
     text-align: center;
     font-family: "Poppins", sans-serif;
 }
 
-.sec3 .program .step p { padding-top: 20px; text-align: center;}
+.sec3 .program .step p {
+    padding-top: 20px;
+    text-align: center;
+}
 
 /* 
     ### presentation section styling ###
 */
 
-.presentation{
+.presentation {
     font-family: "Montserrat", sans-serif;
     padding: 4rem 73px;
     display: grid;
@@ -292,27 +312,29 @@ li {
     z-index: 1;
 }
 
-.presentation .left h1{
+.presentation .left h1 {
     position: relative;
     font-size: 55px;
     z-index: 5;
 }
 
-.presentation .left h1 span { color: #fff;}
+.presentation .left h1 span {
+    color: #fff;
+}
 
-.presentation .left .sub { 
+.presentation .left .sub {
     font-size: 45px;
     margin-left: 7rem;
 }
 
-.presentation .left .desc { 
+.presentation .left .desc {
     font-family: "Poppins", sans-serif;
     margin-top: 5rem;
     font-size: 1.5rem;
     font-weight: 300;
 }
 
-.presentation .right{
+.presentation .right {
     position: relative;
     display: flex;
     justify-content: center;
@@ -320,7 +342,7 @@ li {
     align-items: center;
 }
 
-.presentation .right .right-highlight{
+.presentation .right .right-highlight {
     content: "";
     position: absolute;
     top: 0%;
@@ -331,12 +353,12 @@ li {
     z-index: 1;
 }
 
-.presentation .right img{
+.presentation .right img {
     position: relative;
     z-index: 6;
 }
 
-.presentation .right .name{
+.presentation .right .name {
     font-family: "Six Caps", sans-serif;
     position: relative;
     z-index: 5;
@@ -346,7 +368,7 @@ li {
     top: -25px;
 }
 
-.presentation .right .name-highlight{
+.presentation .right .name-highlight {
     content: "";
     position: absolute;
     bottom: 6.5%;
@@ -361,12 +383,12 @@ li {
     ### secret section styling ###
 */
 
-.secret{
+.secret {
     background-color: #D2B938;
     padding: 0 73px;
 }
 
-.secret .container{
+.secret .container {
     background-color: #1E1E1E;
     padding: 4rem 0;
     padding-bottom: 9rem;
@@ -375,38 +397,41 @@ li {
     flex-direction: column;
 }
 
-.secret .container .secret-header{
+.secret .container .secret-header {
     text-align: center;
     padding: 0 25rem;
     color: #fff;
 }
 
-.secret .container .secret-header h1{
+.secret .container .secret-header h1 {
     font-size: 25px;
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
-.secret .container .secret-header span{color: #D2B938;}
 
-.secret .container .secret-group{
+.secret .container .secret-header span {
+    color: #D2B938;
+}
+
+.secret .container .secret-group {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 4rem 0;
 }
 
-.secret .container .secret-group > div{
+.secret .container .secret-group>div {
     width: 300px;
     text-align: center;
 }
 
-.secret .container .secret-group > div > h1{
+.secret .container .secret-group>div>h1 {
     font-size: 4.5rem;
     color: #fff;
     transition: all ease .4s;
 }
 
-.secret .container .secret-group .secret-box{
+.secret .container .secret-group .secret-box {
     position: relative;
     background-color: #262626;
     padding: 2rem;
@@ -419,28 +444,28 @@ li {
     border: 1px solid;
 }
 
-.secret .container .secret-group .secret-box:hover{
+.secret .container .secret-group .secret-box:hover {
     border: 1px solid #D2B938;
 }
 
-.secret .container .secret-group > div > div > img{
+.secret .container .secret-group>div>div>img {
     position: absolute;
     top: -95px;
     right: 19%;
 }
 
-.secret .container .secret-group > div > div > .first-p{
+.secret .container .secret-group>div>div>.first-p {
     font-weight: 600;
     color: #D2B938;
 }
 
-.secret .container .secret-group > div > div > .second-p{
+.secret .container .secret-group>div>div>.second-p {
     color: #fff;
     font-weight: 300;
     margin-top: 1.4rem;
 }
 
-.secret .container button{
+.secret .container button {
     font-family: "Montserrat", sans-serif;
     text-transform: lowercase;
     display: flex;
@@ -456,17 +481,22 @@ li {
     cursor: pointer;
 }
 
-.secret .container button:hover{ background-color: #c3a925 }
-.secret .container button:active{ background-color: #D2B938 }
+.secret .container button:hover {
+    background-color: #c3a925
+}
 
-.secret .container button .register-btn{
+.secret .container button:active {
+    background-color: #D2B938
+}
+
+.secret .container button .register-btn {
     text-transform: uppercase !important;
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 2px;
 }
 
-.secret .container button .desc-btn{
+.secret .container button .desc-btn {
     font-size: 17px;
 }
 
@@ -474,38 +504,38 @@ li {
     ### mockup global section styling ###
 */
 
-.mockup-global-sec{
+.mockup-global-sec {
     background-color: #F3F3F3;
     position: relative;
     font-family: "Montserrat", sans-serif;
 }
 
 
-.mockup-global-sec .reb{
+.mockup-global-sec .reb {
     font-family: "Poppins", sans-serif;
-   position: absolute;
-   top: -97px;
-   right: 0;
-   -webkit-text-fill-color: #F3F3F3;
-   -webkit-text-stroke: 1px #000;
-   opacity: .1;
-   font-size: 20rem;
-   font-weight: 700;
+    position: absolute;
+    top: -97px;
+    right: 0;
+    -webkit-text-fill-color: #F3F3F3;
+    -webkit-text-stroke: 1px #000;
+    opacity: .1;
+    font-size: 20rem;
+    font-weight: 700;
 }
 
-.mockup-global-sec .orn{
+.mockup-global-sec .orn {
     font-family: "Poppins", sans-serif;
-   position: absolute;
-   top: -97px;
-   left: 0;
-   -webkit-text-fill-color: #F3F3F3;
-   -webkit-text-stroke: 1px #000;
-   opacity: .1;
-   font-size: 20rem;
-   font-weight: 700;
+    position: absolute;
+    top: -97px;
+    left: 0;
+    -webkit-text-fill-color: #F3F3F3;
+    -webkit-text-stroke: 1px #000;
+    opacity: .1;
+    font-size: 20rem;
+    font-weight: 700;
 }
 
-.mockup-global-sec .container{
+.mockup-global-sec .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -513,24 +543,24 @@ li {
     text-align: center;
 }
 
-.mockup-global-sec .container img{
+.mockup-global-sec .container img {
     position: absolute;
     top: -120px;
 }
 
-.mockup-global-sec .container h1{
+.mockup-global-sec .container h1 {
     font-size: 3rem;
     font-weight: 700;
     color: #D2B938;
 }
 
-.mockup-global-sec .container p{
+.mockup-global-sec .container p {
     font-size: 22px;
     margin-top: .6rem;
     margin-bottom: 1rem;
 }
 
-.mockup-global-sec .container button{
+.mockup-global-sec .container button {
     font-family: "Montserrat", sans-serif;
     text-transform: lowercase;
     display: flex;
@@ -546,17 +576,22 @@ li {
     cursor: pointer;
 }
 
-.mockup-global-sec .container button:hover{ background-color: #c3a925 }
-.mockup-global-sec .container button:active{ background-color: #D2B938 }
+.mockup-global-sec .container button:hover {
+    background-color: #c3a925
+}
 
-.mockup-global-sec .container button .register-btn{
+.mockup-global-sec .container button:active {
+    background-color: #D2B938
+}
+
+.mockup-global-sec .container button .register-btn {
     text-transform: uppercase !important;
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 2px;
 }
 
-.mockup-global-sec .container button .desc-btn{
+.mockup-global-sec .container button .desc-btn {
     font-size: 17px;
 }
 
@@ -564,38 +599,43 @@ li {
     ### temignages section styling ###
 */
 
-.temignages{
+.temignages {
     font-family: "Montserrat", sans-serif;
     background-color: #1E1E1E;
     color: #fff;
     padding: 2rem 73px;
 }
 
-.temignages > div > h1{
+.temignages>div>h1 {
     font-size: 2rem;
 }
-.temignages > div > .sub{
+
+.temignages>div>.sub {
     color: #D2B938;
     margin-left: 4rem;
 }
-.slick-slide{
+
+.slick-slide {
     transform: scale(0.8);
     transition: all 0.4s ease-in-out;
     padding: 40px 0;
 }
 
-.slick-prev, .slick-next{ display: none !important;}
+.slick-prev,
+.slick-next {
+    display: none !important;
+}
 
-.slick-slide img{
+.slick-slide img {
     max-width: 100%;
     transition: all 0.4s ease-in-out;
 }
 
-.slick-center{
+.slick-center {
     transform: scale(1.1);
 }
 
-.slick-dots li button:before{
+.slick-dots li button:before {
     color: #D2B938 !important;
 }
 
@@ -605,6 +645,7 @@ li {
     align-items: center;
     flex-direction: column;
 }
+
 .temignages-bottom strong {
     font-size: 1.6rem;
     color: #D2B938;
@@ -614,7 +655,9 @@ li {
     ### footer section styling ###
 */
 
-footer{ background-color: #D2B938; }
+footer {
+    background-color: #D2B938;
+}
 
 footer div {
     padding: 0 19rem;
@@ -625,21 +668,21 @@ footer div {
     font-family: "Montserrat", sans-serif;
 }
 
-footer .footer-top{
-     flex-direction: column;
+footer .footer-top {
+    flex-direction: column;
 }
 
-footer .footer-bottom{
+footer .footer-bottom {
     margin-top: 2rem;
 }
 
-footer .footer-bottom a{
+footer .footer-bottom a {
     font-weight: 600;
     color: #000;
     padding: 0 .4rem;
 }
 
-footer .footer-sub{
+footer .footer-sub {
     font-family: "Montserrat", sans-serif;
     padding: 0 19rem;
     display: flex;
@@ -657,12 +700,15 @@ footer .footer-sub{
     .top-banner {
         font-size: 28.8px;
     }
-    .presentation .right .name-highlight{
+
+    .presentation .right .name-highlight {
         width: 740px;
     }
-    .presentation .right .right-highlight{
+
+    .presentation .right .right-highlight {
         width: 630px;
     }
+
     .presentation .left .highlight {
         width: 230px;
     }
@@ -672,12 +718,15 @@ footer .footer-sub{
     .top-banner {
         font-size: 25.1px;
     }
-    .presentation .right .name-highlight{
+
+    .presentation .right .name-highlight {
         width: 660px;
     }
-    .presentation .right .right-highlight{
+
+    .presentation .right .right-highlight {
         width: 530px;
     }
+
     .presentation .left .highlight {
         width: 218px;
     }
@@ -687,9 +736,11 @@ footer .footer-sub{
     .top-banner {
         font-size: 21.4px;
     }
-    .presentation .right .name-highlight{
+
+    .presentation .right .name-highlight {
         width: 590px;
     }
+
     .presentation .left .highlight {
         width: 203px;
     }
@@ -699,20 +750,28 @@ footer .footer-sub{
     .top-banner {
         font-size: 20.3px;
     }
-    .presentation .right .name-highlight{
+
+    .presentation .right .name-highlight {
         width: 560px;
     }
 }
-@media (min-width: 1281px){.header-left { gap: 25px;}}
+
+@media (min-width: 1281px) {
+    .header-left {
+        gap: 25px;
+    }
+}
 
 @media (min-width: 1280px) and (max-width: 1280px) {
     .top-banner {
         font-size: 18.9px;
     }
+
     .header-left {
         gap: 25px;
     }
-    .presentation .right .name-highlight{
+
+    .presentation .right .name-highlight {
         width: 530px;
     }
 }
@@ -721,10 +780,12 @@ footer .footer-sub{
     .top-banner {
         font-size: 18.9px;
     }
+
     .header-left {
         gap: 10px;
     }
-    .presentation .right .name-highlight{
+
+    .presentation .right .name-highlight {
         width: 520px;
     }
 }
@@ -733,19 +794,24 @@ footer .footer-sub{
     .top-banner {
         font-size: 15.1px;
     }
-    .header-left h1{
+
+    .header-left h1 {
         font-size: 32px;
     }
-    .header-left button .register-btn{
+
+    .header-left button .register-btn {
         font-size: 20px;
     }
+
     .header-left h3 {
         font-size: 18px;
     }
-    .header-left p{
+
+    .header-left p {
         font-size: 12px;
     }
-    .presentation .right .name-highlight{
+
+    .presentation .right .name-highlight {
         width: 444px;
     }
 }
